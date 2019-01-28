@@ -3,7 +3,7 @@
   "type":        "symfony-bundle",
   "description": "Core bundle de Emiliano Castillo pour Symfony 4",
   "keywords":    ["base", "core", "bundle"],
-  "homepage":    "https://github.com/Snuchycovich/",
+  "homepage":    "https://github.com/Snuchycovich/core-bundle",
   "license":     "MIT",
   "authors": [
     {
@@ -23,7 +23,6 @@
     "symfony/orm-pack":                     "*",
     "symfony/twig-bundle":                  "4.2.*",
     "stof/doctrine-extensions-bundle":      "^1.3",
-    "datatables/datatables":                "1.10.*",
     "php":                                  "^7.1.3"
   },
   "extra": {
