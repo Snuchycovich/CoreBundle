@@ -15,14 +15,18 @@
 
   "autoload": {
     "psr-4": {
-      "EC\\CoreBundle\\": ""
+      "Snuchycovich\\CoreBundle\\": ""
     }
   },
   "require": {
+    "symfony/framework-bundle":             "4.2.*",
+    "symfony/orm-pack":                     "*",
+    "symfony/twig-bundle":                  "4.2.*",
+    "stof/doctrine-extensions-bundle":      "^1.3",
+    "php":                                  "^7.1.3"
   },
   "extra": {
     "branch-alias": {
-      "dev-sf4":                          "4.x-dev",
       "dev-master":                       "4.x-dev"
     }
   }
